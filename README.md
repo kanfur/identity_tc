@@ -1,8 +1,13 @@
 # identity_tc
+Bu uygulama TC no doğrulaması yapmak için hazırlanmıştır.
+
+Gerekli extension:
 php.ini içinden extension:soap ya da php_soap bulup aktif edin. webserverı tekrar başlatın.
 
+Amacı:
 Adı, Soyadı ve Doğum Yılı bilinen bir kişinin T.C. Kimlik Numarası'nın doğruluğunu kontrol eder.
 
+Test:
 Postman collection json dosyası root dizinindedir.
 
 Php - cURL örneği;
