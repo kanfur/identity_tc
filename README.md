@@ -3,6 +3,8 @@ php.ini içinden extension:soap ya da php_soap bulup aktif edin. webserverı tek
 
 Adı, Soyadı ve Doğum Yılı bilinen bir kişinin T.C. Kimlik Numarası'nın doğruluğunu kontrol eder.
 
+Postman collection json dosyası root dizinindedir.
+
 Php - cURL örneği;
 
     <?php
