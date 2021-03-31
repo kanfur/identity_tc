@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "3727c87a-3dd5-4862-88a3-99203f23348b",
+		"name": "IdentityTc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "authenticate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "identity_no",
+							"value": "24710697398",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "hüseyin furkan",
+							"type": "text"
+						},
+						{
+							"key": "surname",
+							"value": "öztürk",
+							"type": "text"
+						},
+						{
+							"key": "birthday",
+							"value": "1993-04-13",
+							"type": "text"
+						},
+						{
+							"key": "province",
+							"value": "İstanbul",
+							"type": "text"
+						},
+						{
+							"key": "district",
+							"value": "Kağıthane",
+							"type": "text"
+						},
+						{
+							"key": "wallet serial",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "wallet no",
+							"value": "123123",
+							"type": "text"
+						},
+						{
+							"key": "identity_new",
+							"value": "true",
+							"description": "true-false",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://ec2-54-93-104-191.eu-central-1.compute.amazonaws.com/api/authenticate/tc",
+					"protocol": "http",
+					"host": [
+						"ec2-54-93-104-191",
+						"eu-central-1",
+						"compute",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"api",
+						"authenticate",
+						"tc"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
